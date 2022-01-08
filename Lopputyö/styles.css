@@ -30,8 +30,8 @@
 }
 
 #navbar__logo{
-    background-color: #e641a1;
-    background-image: linear-gradient(to top, #fa96c8 0%, #ff9999 100%);
+    background-color: #fae100;
+    background-image: linear-gradient(to top, #eff30b 0%, #ff0000 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -390,19 +390,22 @@ background: #3b09ee;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #de1a00 0%, #ffe600 100%);
 }
 
-.fa-hippo,
-.fa-user{
+.fa-exclamation{
     font-size: 14rem;
     color:black;
+}
+
+.fa-skull-crossbones{
+    font-size: 14rem;
 }
 
 #card-2{
     background: #be2558;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d );
-    background: linear-gradient(to right, #4d0606, #ff512f );
+    background: linear-gradient(to right, #4b064d, #2fbdff );
 }
 
 /*mobile stuff*/
@@ -524,27 +527,37 @@ background: #3b09ee;
     background: #1fa2ff; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
+      #00ff6a,
+      #25fa12,
+      rgb(31, 255, 80)
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      #a6ffcb,
-      #12d8fa,
-      #1fa2ff
+      #0de968,
+      #047a8f,
+      #05075c
     ); 
 }
 
 .services__card:nth-child(3){
    background-image: linear-gradient(
        -225deg,
-       #231557 0%,
-       #44107a 29%,
-       #ff1361 67%,
-       #fff800 100%
+       #15574c 0%,
+       #7a1071 29%,
+       #ff1313 67%,
+       #ff7b00 100%
    );
 }
+
+.services__card:nth-child(4){
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+ }
 
 .services__card h2{
     text-align: center;
@@ -711,5 +724,47 @@ background: #3b09ee;
         padding: 10px;
         width: 100%;
     }
+
+    input[type = text]{
+        width: 50px;
+    }
     
 }
+
+
+
+.singup{
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+    padding: 200px 0;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+body{
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 5%;
+}
+
+input[type = text]{
+    width: 350px;
+    height: 30px;
+    display: inline-flex;
+}
+
+
+input[type = radio]{
+    width: 30px;
+    height: 30px;
+    display: center;
+    text-align: right;
+}
+
+
+
