@@ -725,9 +725,7 @@ background: #3b09ee;
         width: 100%;
     }
 
-    input[type = text]{
-        width: 50px;
-    }
+  
     
 }
 
@@ -766,5 +764,33 @@ input[type = radio]{
     text-align: right;
 }
 
+
+
+
+@media  screen and (max-width:768px) {
+    input[type = text]{
+        width: 200px;
+        height: 30px;
+        display: inline-flex;
+    }
+
+    .singup{
+
+        padding: 200px 0;
+        font-size: 30px;
+    
+    }
+
+    input[type = radio]{
+        width: 30px;
+        height: 30px;
+        display: center;
+        text-align: right;
+    }
+
+    .singup__payment{
+        font-size: 25px; 
+    }
+}
 
 
